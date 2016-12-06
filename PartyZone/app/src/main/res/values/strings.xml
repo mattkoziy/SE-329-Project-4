@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Party Zone</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_show_address">Parties</string>
+    <string name="title_activity_host">host</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_list_parties">listParties</string>
+    <string name="title_activity_find">find</string>
+    <string name="title_activity_host_or_find">hostOrFind</string>
+    <string name="title_activity_signup">signup</string>
+    <string name="title_activity_login">login</string>
+    <string name="title_activity_show_party">showParty</string>
+    <string name="title_activity_settings">settings</string>
+</resources>

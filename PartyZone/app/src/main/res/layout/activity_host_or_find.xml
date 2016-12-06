@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".hostOrFind"
+    android:background="@drawable/bp3">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:id="@+id/cancel"
+                    android:background="@drawable/settings_new"
+                    android:layout_alignParentBottom="false"
+                    android:layout_alignParentTop="false"
+                    android:layout_alignWithParentIfMissing="false"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentRight="false"
+                    android:baselineAlignBottom="true" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="right">
+
+                    <ImageButton
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:id="@+id/home"
+                        android:background="@drawable/home_newcg"
+                        android:layout_alignParentBottom="false"
+                        android:layout_alignParentTop="false"
+                        android:layout_alignWithParentIfMissing="false"
+                        android:layout_centerHorizontal="true"
+                        android:layout_alignParentRight="false" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:text="Find a Party"
+            android:id="@+id/find"
+            android:textStyle="bold"
+            android:background="@drawable/round_button2"
+            android:layout_alignTop="@+id/host"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:text="Host a Party"
+            android:id="@+id/host"
+            android:textStyle="bold"
+            android:background="@drawable/round_button2"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/find"
+            android:layout_alignStart="@+id/find"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="200dp" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
